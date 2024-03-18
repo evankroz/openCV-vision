@@ -17,5 +17,6 @@ def play_video(file_path):
             break
 cap.release()
 cap.destroyAllWindows()
+
 if __name__ == "__main__":
-    runvid("highway.mp4")
+    play_video("highway.mp4")
